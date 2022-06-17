@@ -1,0 +1,7 @@
+steps:
+  - name: gcr.io/$PROJECT_ID/
+      args: ["install"]
+  - name: gcr.io/$PROJECT_ID/
+      args: ["update"]
+  - name: "gcr.io/cloud-builders/gcloud"
+      args: ["app","deploy", "app-${_BRANCH_NAME}.yaml"]
