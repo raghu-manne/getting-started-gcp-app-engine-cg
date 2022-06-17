@@ -1,6 +1,5 @@
 runtime: nodejs16
 api_version: 1
-threadsafe: true
 
 handlers:
 - url: /
