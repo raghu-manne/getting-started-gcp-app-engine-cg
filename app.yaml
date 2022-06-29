@@ -1,4 +1,4 @@
-runtime: nodejs16
+runtime: python27
 
 handlers:
 - url: /
